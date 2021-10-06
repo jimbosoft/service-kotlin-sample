@@ -1,0 +1,6 @@
+.gradle/
+ansible/
+build/
+gradle/
+.idea
+

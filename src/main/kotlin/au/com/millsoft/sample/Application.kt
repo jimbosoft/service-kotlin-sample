@@ -1,13 +1,12 @@
-package au.gov.bom.integration.somethings
+package au.com.millsoft.sample
 
-import org.apache.camel.opentracing.starter.CamelOpenTracing
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 /**
+ *
  * Entry-point to the application
  */
-@CamelOpenTracing
 @SpringBootApplication
 class Application
 

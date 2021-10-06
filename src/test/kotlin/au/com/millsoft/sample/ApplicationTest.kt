@@ -1,4 +1,4 @@
-package au.gov.bom.integration.somethings
+package au.com.millsoft.sample
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest

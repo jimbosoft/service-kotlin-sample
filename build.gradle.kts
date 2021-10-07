@@ -28,14 +28,7 @@ dependencies {
 	}
 }
 repositories {
-//	mavenCentral()
-	maven {
-		url = uri(System.getProperty("artifactRepoUrl"))
-		credentials {
-			username = System.getProperty("artifactRepoUsername")
-			password = System.getProperty("artifactRepoPassword")
-		}
-	}
+	mavenCentral()
 }
 val compileKotlin: KotlinCompile by tasks
 compileKotlin.kotlinOptions {
